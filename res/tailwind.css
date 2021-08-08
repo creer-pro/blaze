@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  .menu-item {
+    @apply font-bold block h-full items-center flex uppercase text-base text-ocean px-4 hover:bg-goldish transform -skew-x-12;
+  }
+}

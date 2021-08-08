@@ -3,7 +3,15 @@ module.exports = {
   purge: ['index.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'ocean': '#0b319c',
+        'goldish': '#ffb90a'
+      }, 
+      fontFamily: {
+        'montserrat': ['Montserrat']
+      }
+    },
   },
   variants: {
     extend: {},
