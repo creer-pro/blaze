@@ -673,24 +673,20 @@ video {
   margin-left: 1.25rem;
 }
 
-.mt-0 {
-  margin-top: 0px;
-}
-
 .-mt-2 {
   margin-top: -0.5rem;
 }
 
-.ml-2 {
-  margin-left: 0.5rem;
+.ml-1\.5 {
+  margin-left: 0.375rem;
 }
 
 .ml-1 {
   margin-left: 0.25rem;
 }
 
-.ml-1\.5 {
-  margin-left: 0.375rem;
+.-mt-3 {
+  margin-top: -0.75rem;
 }
 
 .block {
@@ -699,6 +695,10 @@ video {
 
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
 }
 
 .h-14 {
@@ -713,12 +713,20 @@ video {
   height: 100%;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .h-5 {
   height: 1.25rem;
+}
+
+.h-40 {
+  height: 10rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-10 {
+  height: 2.5rem;
 }
 
 .w-full {
@@ -739,6 +747,14 @@ video {
 
 .w-2 {
   width: 0.5rem;
+}
+
+.w-44 {
+  width: 11rem;
+}
+
+.w-36 {
+  width: 9rem;
 }
 
 .-translate-x-1 {
@@ -777,6 +793,12 @@ video {
   justify-content: space-between;
 }
 
+.space-x-3 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -791,10 +813,6 @@ video {
 
 .border-l-2 {
   border-left-width: 2px;
-}
-
-.border-l-4 {
-  border-left-width: 4px;
 }
 
 .border-goldish {
@@ -822,6 +840,47 @@ video {
   background-color: rgba(255, 185, 10, var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgba(243, 244, 246, var(--tw-bg-opacity));
+}
+
+.bg-walmart-gray {
+  background-image: url('../res/logos/walmart-gray.png');
+}
+
+.bg-amazon-gray {
+  background-image: url('../res/logos/amazon-gray.png');
+}
+
+.bg-shopify-gray {
+  background-image: url('../res/logos/shopify-gray.png');
+}
+
+.bg-woocommerce-gray {
+  background-image: url('../res/logos/woocommerce-gray.png');
+}
+
+.bg-jet-gray {
+  background-image: url('../res/logos/jet-gray.png');
+}
+
+.bg-amazon-advertising-gray {
+  background-image: url('../res/logos/amazon-advertising-gray.png');
+}
+
+.bg-contain {
+  background-size: contain;
+}
+
+.bg-center {
+  background-position: center;
+}
+
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -841,9 +900,9 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.px-5 {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .text-center {
@@ -911,14 +970,6 @@ video {
   letter-spacing: -0.025em;
 }
 
-.tracking-wide {
-  letter-spacing: 0.025em;
-}
-
-.tracking-wider {
-  letter-spacing: 0.05em;
-}
-
 .tracking-widest {
   letter-spacing: 0.1em;
 }
@@ -958,6 +1009,30 @@ video {
 .hover\:bg-ocean:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(11, 49, 156, var(--tw-bg-opacity));
+}
+
+.hover\:bg-walmart:hover {
+  background-image: url('../res/logos/walmart.png');
+}
+
+.hover\:bg-amazon:hover {
+  background-image: url('../res/logos/amazon.png');
+}
+
+.hover\:bg-shopify:hover {
+  background-image: url('../res/logos/shopify.png');
+}
+
+.hover\:bg-woocommerce:hover {
+  background-image: url('../res/logos/woocommerce.png');
+}
+
+.hover\:bg-jet:hover {
+  background-image: url('../res/logos/jet.png');
+}
+
+.hover\:bg-amazon-advertising:hover {
+  background-image: url('../res/logos/amazon-advertising.png');
 }
 
 .group:hover .group-hover\:-translate-x-4 {
