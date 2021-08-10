@@ -8,6 +8,6 @@
   }
 
   .grow-item {
-    @apply block w-36 h-14 bg-contain bg-no-repeat bg-center; 
+    @apply block w-36 h-14 bg-contain bg-no-repeat bg-center transition-all duration-500; 
   }
 }
