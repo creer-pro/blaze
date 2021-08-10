@@ -628,6 +628,15 @@ video {
   background-color: rgba(255, 185, 10, var(--tw-bg-opacity));
 }
 
+.grow-item {
+  display: block;
+  height: 3.5rem;
+  width: 9rem;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 .absolute {
   position: absolute;
 }
@@ -697,10 +706,6 @@ video {
   display: flex;
 }
 
-.grid {
-  display: grid;
-}
-
 .h-14 {
   height: 3.5rem;
 }
@@ -721,14 +726,6 @@ video {
   height: 10rem;
 }
 
-.h-24 {
-  height: 6rem;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
 .w-full {
   width: 100%;
 }
@@ -747,14 +744,6 @@ video {
 
 .w-2 {
   width: 0.5rem;
-}
-
-.w-44 {
-  width: 11rem;
-}
-
-.w-36 {
-  width: 9rem;
 }
 
 .-translate-x-1 {
@@ -791,12 +780,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.space-x-3 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(0.75rem * var(--tw-space-x-reverse));
-  margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .overflow-hidden {
@@ -846,39 +829,27 @@ video {
 }
 
 .bg-walmart-gray {
-  background-image: url('../res/logos/walmart-gray.png');
+  background-image: url('logos/walmart-gray.png');
 }
 
 .bg-amazon-gray {
-  background-image: url('../res/logos/amazon-gray.png');
+  background-image: url('logos/amazon-gray.png');
 }
 
 .bg-shopify-gray {
-  background-image: url('../res/logos/shopify-gray.png');
+  background-image: url('logos/shopify-gray.png');
 }
 
 .bg-woocommerce-gray {
-  background-image: url('../res/logos/woocommerce-gray.png');
+  background-image: url('logos/woocommerce-gray.png');
 }
 
 .bg-jet-gray {
-  background-image: url('../res/logos/jet-gray.png');
+  background-image: url('logos/jet-gray.png');
 }
 
 .bg-amazon-advertising-gray {
-  background-image: url('../res/logos/amazon-advertising-gray.png');
-}
-
-.bg-contain {
-  background-size: contain;
-}
-
-.bg-center {
-  background-position: center;
-}
-
-.bg-no-repeat {
-  background-repeat: no-repeat;
+  background-image: url('logos/amazon-advertising-gray.png');
 }
 
 .p-4 {
@@ -905,6 +876,21 @@ video {
   padding-right: 3rem;
 }
 
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .text-center {
   text-align: center;
 }
@@ -923,9 +909,9 @@ video {
   line-height: 1;
 }
 
-.text-6xl {
-  font-size: 3.75rem;
-  line-height: 1;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .text-2xl {
@@ -933,9 +919,9 @@ video {
   line-height: 2rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .font-black {
@@ -1012,27 +998,27 @@ video {
 }
 
 .hover\:bg-walmart:hover {
-  background-image: url('../res/logos/walmart.png');
+  background-image: url('logos/walmart.png');
 }
 
 .hover\:bg-amazon:hover {
-  background-image: url('../res/logos/amazon.png');
+  background-image: url('logos/amazon.png');
 }
 
 .hover\:bg-shopify:hover {
-  background-image: url('../res/logos/shopify.png');
+  background-image: url('logos/shopify.png');
 }
 
 .hover\:bg-woocommerce:hover {
-  background-image: url('../res/logos/woocommerce.png');
+  background-image: url('logos/woocommerce.png');
 }
 
 .hover\:bg-jet:hover {
-  background-image: url('../res/logos/jet.png');
+  background-image: url('logos/jet.png');
 }
 
 .hover\:bg-amazon-advertising:hover {
-  background-image: url('../res/logos/amazon-advertising.png');
+  background-image: url('logos/amazon-advertising.png');
 }
 
 .group:hover .group-hover\:-translate-x-4 {

@@ -6,4 +6,8 @@
   .menu-item {
     @apply font-bold block h-full items-center flex uppercase text-base text-ocean px-4 hover:bg-goldish transform -skew-x-12 transition duration-700;
   }
+
+  .grow-item {
+    @apply block w-36 h-14 bg-contain bg-no-repeat bg-center; 
+  }
 }
