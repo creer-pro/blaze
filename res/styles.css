@@ -677,6 +677,14 @@ video {
   top: 2rem;
 }
 
+.left-60 {
+  left: 15rem;
+}
+
+.left-64 {
+  left: 16rem;
+}
+
 .z-0 {
   z-index: 0;
 }
@@ -693,11 +701,6 @@ video {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.my-20 {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
 }
 
 .ml-20 {
@@ -820,8 +823,20 @@ video {
   width: 60%;
 }
 
+.w-\[270px\] {
+  width: 270px;
+}
+
 .w-\[280px\] {
   width: 280px;
+}
+
+.w-\[260px\] {
+  width: 260px;
+}
+
+.w-\[265px\] {
+  width: 265px;
 }
 
 .-translate-x-1 {
