@@ -695,6 +695,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-12 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
 .ml-20 {
   margin-left: 5rem;
 }
@@ -759,6 +764,14 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
+.mb-5 {
+  margin-bottom: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -787,24 +800,12 @@ video {
   height: 10rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[570px\] {
+  height: 570px;
 }
 
 .h-\[400px\] {
   height: 400px;
-}
-
-.h-\[550px\] {
-  height: 550px;
-}
-
-.h-\[560px\] {
-  height: 560px;
-}
-
-.h-\[570px\] {
-  height: 570px;
 }
 
 .w-full {
@@ -839,6 +840,18 @@ video {
   width: 33.333333%;
 }
 
+.w-44 {
+  width: 11rem;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .-translate-x-1 {
   --tw-translate-x: -0.25rem;
   transform: var(--tw-transform);
@@ -868,6 +881,10 @@ video {
   transform: var(--tw-transform);
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .items-center {
   align-items: center;
 }
@@ -892,10 +909,6 @@ video {
   border-width: 1px;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border-b-4 {
   border-bottom-width: 4px;
 }
@@ -907,11 +920,6 @@ video {
 .border-goldish {
   --tw-border-opacity: 1;
   border-color: rgba(255, 185, 10, var(--tw-border-opacity));
-}
-
-.border-black {
-  --tw-border-opacity: 1;
-  border-color: rgba(0, 0, 0, var(--tw-border-opacity));
 }
 
 .border-b-goldish {
@@ -1021,8 +1029,17 @@ video {
   padding-right: 2.5rem;
 }
 
+.py-20 {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .pt-20 {
   padding-top: 5rem;
+}
+
+.text-left {
+  text-align: left;
 }
 
 .text-center {
@@ -1087,6 +1104,10 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-extrabold {
+  font-weight: 800;
 }
 
 .uppercase {
@@ -1199,6 +1220,15 @@ video {
 
 .hover\:bg-amazon-advertising:hover {
   background-image: url('logos/amazon-advertising.png');
+}
+
+.hover\:text-goldish:hover {
+  --tw-text-opacity: 1;
+  color: rgba(255, 185, 10, var(--tw-text-opacity));
+}
+
+.hover\:underline:hover {
+  text-decoration: underline;
 }
 
 .group:hover .group-hover\:-translate-x-4 {
