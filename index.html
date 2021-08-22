@@ -168,7 +168,15 @@
       <div class="w-full text-center py-5 grid grid-cols-2 grid-rows-2 gap-12">
         <!-- walmart -->
         <div>
-          <img class="h-96 object-cover w-full" src="res/img/walmart.jpg" alt="Walmart">
+          <a class="relative block overflow-hidden group" href="#">
+            <img class="h-96 object-cover w-full" src="res/img/walmart.jpg" alt="Walmart">
+            <!-- arrow -->
+            <div class="absolute bg-goldish z-10 inset-0 opacity-0 group-hover:opacity-40"></div>
+            <span class="w-24 h-36 absolute -right-10 -bottom-14 z-20 bg-goldish transform rotate-45 opacity-0 group-hover:opacity-100 transition duration-500"></span>
+            <svg class="w-10 h-24 text-white fill-current absolute right-3 -bottom-5 z-30 opacity-0 group-hover:opacity-100 transition duration-500" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
         </div>
         <!-- Samsung -->
         <div>
