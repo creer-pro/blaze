@@ -684,8 +684,12 @@ video {
   top: 2rem;
 }
 
-.bottom-0 {
-  bottom: 0px;
+.-right-10 {
+  right: -2.5rem;
+}
+
+.-bottom-14 {
+  bottom: -3.5rem;
 }
 
 .right-3 {
@@ -696,14 +700,6 @@ video {
   bottom: -1.25rem;
 }
 
-.-right-10 {
-  right: -2.5rem;
-}
-
-.-bottom-14 {
-  bottom: -3.5rem;
-}
-
 .z-0 {
   z-index: 0;
 }
@@ -712,12 +708,12 @@ video {
   z-index: 10;
 }
 
-.z-30 {
-  z-index: 30;
-}
-
 .z-20 {
   z-index: 20;
+}
+
+.z-30 {
+  z-index: 30;
 }
 
 .mx-auto {
@@ -847,16 +843,16 @@ video {
   height: 24rem;
 }
 
+.h-36 {
+  height: 9rem;
+}
+
 .h-24 {
   height: 6rem;
 }
 
 .h-6 {
   height: 1.5rem;
-}
-
-.h-36 {
-  height: 9rem;
 }
 
 .w-full {
@@ -895,16 +891,16 @@ video {
   width: 11rem;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
 .w-10 {
   width: 2.5rem;
 }
 
 .w-6 {
   width: 1.5rem;
-}
-
-.w-24 {
-  width: 6rem;
 }
 
 .-translate-x-1 {
@@ -1270,6 +1266,26 @@ video {
   transition-duration: 500ms;
 }
 
+.duration-700 {
+  transition-duration: 700ms;
+}
+
+.duration-1000 {
+  transition-duration: 1000ms;
+}
+
+.duration-\[2000ms\] {
+  transition-duration: 2000ms;
+}
+
+.duration-\[1300ms\] {
+  transition-duration: 1300ms;
+}
+
+.duration-\[2300ms\] {
+  transition-duration: 2300ms;
+}
+
 .hover\:bg-ocean:hover {
   --tw-bg-opacity: 1;
   background-color: rgba(11, 49, 156, var(--tw-bg-opacity));
@@ -1333,18 +1349,10 @@ video {
   color: rgba(255, 185, 10, var(--tw-text-opacity));
 }
 
-.group:hover .group-hover\:opacity-50 {
-  opacity: 0.5;
+.group:hover .group-hover\:opacity-40 {
+  opacity: 0.4;
 }
 
 .group:hover .group-hover\:opacity-100 {
   opacity: 1;
-}
-
-.group:hover .group-hover\:opacity-30 {
-  opacity: 0.3;
-}
-
-.group:hover .group-hover\:opacity-40 {
-  opacity: 0.4;
 }
