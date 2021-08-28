@@ -911,6 +911,30 @@ video {
   width: 66.666667%;
 }
 
+.w-2\/6 {
+  width: 33.333333%;
+}
+
+.w-3\/6 {
+  width: 50%;
+}
+
+.w-4\/6 {
+  width: 66.666667%;
+}
+
+.w-5\/6 {
+  width: 83.333333%;
+}
+
+.w-2\/5 {
+  width: 40%;
+}
+
+.w-1\/2 {
+  width: 50%;
+}
+
 .-translate-x-1 {
   --tw-translate-x: -0.25rem;
   transform: var(--tw-transform);
@@ -1332,10 +1356,6 @@ video {
 
 .hover\:underline:hover {
   text-decoration: underline;
-}
-
-.hover\:opacity-100:hover {
-  opacity: 1;
 }
 
 .group:hover .group-hover\:-translate-x-4 {
