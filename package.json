@@ -4,12 +4,11 @@
   "description": "Bold - An HTML Template created using Tailwind CSS 2.2.",
   "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "npx tailwind -i res/tailwind.css -o res/styles.css --watch",
     "build": "npx tailwind -i res/tailwind.css -o res/styles.css --minify"
   },
   "keywords": [
-    "bold",
+    "template",
     "tailwind",
     "css"
   ],
