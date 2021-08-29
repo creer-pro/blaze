@@ -227,6 +227,11 @@
           </a>
         </div>
       </div>
+      <!-- view-all-button -->
+      <a href="#" class="mx-auto bg-goldish relative transform -skew-x-12 block w-56 my-16 text-center p-4 hover:bg-ocean group transition duration-500 shadow-xl">
+        <span class="absolute block border border-goldish w-56 h-14 transform -skew-x-1 group-hover:border-ocean transition duration-500 -translate-x-1 group-hover:-translate-x-4 group-hover:-translate-y-3"></span>
+        <span class="font-semibold uppercase transform skew-x-12 block text-xl w-full group-hover:text-goldish transition duration-500">View All</span>
+      </a>
     </div>
 
   </div>
