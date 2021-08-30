@@ -1034,16 +1034,6 @@ video {
   border-color: rgba(11, 49, 156, var(--tw-border-opacity));
 }
 
-.border-yellow-400 {
-  --tw-border-opacity: 1;
-  border-color: rgba(251, 191, 36, var(--tw-border-opacity));
-}
-
-.border-yellow-500 {
-  --tw-border-opacity: 1;
-  border-color: rgba(245, 158, 11, var(--tw-border-opacity));
-}
-
 .border-b-goldish {
   --tw-border-opacity: 1;
   border-bottom-color: rgba(255, 185, 10, var(--tw-border-opacity));
@@ -1114,10 +1104,6 @@ video {
 
 .to-gray-200 {
   --tw-gradient-to: #e5e7eb;
-}
-
-.to-yellow-200 {
-  --tw-gradient-to: #fde68a;
 }
 
 .fill-current {
@@ -1333,24 +1319,14 @@ video {
   color: rgba(75, 85, 99, var(--tw-text-opacity));
 }
 
-.text-yellow-300 {
+.text-yellow-700 {
   --tw-text-opacity: 1;
-  color: rgba(252, 211, 77, var(--tw-text-opacity));
-}
-
-.text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgba(245, 158, 11, var(--tw-text-opacity));
+  color: rgba(180, 83, 9, var(--tw-text-opacity));
 }
 
 .text-yellow-600 {
   --tw-text-opacity: 1;
   color: rgba(217, 119, 6, var(--tw-text-opacity));
-}
-
-.text-yellow-700 {
-  --tw-text-opacity: 1;
-  color: rgba(180, 83, 9, var(--tw-text-opacity));
 }
 
 .opacity-50 {
@@ -1438,22 +1414,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(255, 255, 255, 0));
 }
 
-.hover\:to-gray-400:hover {
-  --tw-gradient-to: #9ca3af;
-}
-
-.hover\:to-yellow-200:hover {
-  --tw-gradient-to: #fde68a;
-}
-
-.hover\:to-yellow-400:hover {
-  --tw-gradient-to: #fbbf24;
-}
-
-.hover\:to-yellow-600:hover {
-  --tw-gradient-to: #d97706;
-}
-
 .hover\:to-yellow-500:hover {
   --tw-gradient-to: #f59e0b;
 }
@@ -1500,16 +1460,6 @@ video {
 .group:hover .group-hover\:text-goldish {
   --tw-text-opacity: 1;
   color: rgba(255, 185, 10, var(--tw-text-opacity));
-}
-
-.group:hover .group-hover\:text-gray-500 {
-  --tw-text-opacity: 1;
-  color: rgba(107, 114, 128, var(--tw-text-opacity));
-}
-
-.group:hover .group-hover\:text-yellow-500 {
-  --tw-text-opacity: 1;
-  color: rgba(245, 158, 11, var(--tw-text-opacity));
 }
 
 .group:hover .group-hover\:text-white {
