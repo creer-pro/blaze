@@ -8,11 +8,12 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="res/styles.css">
+  <script defer src="node_modules/alpinejs/dist/cdn.min.js"></script>
 </head>
 <body>
   <div class="w-full">
     <!-- SECTION: Header -->
-    <div class="bg-white w-full shadow-xl h-14 flex items-center justify-between">
+    <div x-data="{ open : false }" class="bg-white w-full shadow-xl h-14 flex items-center justify-between">
       <!-- logo & brand -->
       <div class="px-5 lg:ml-20 flex items-center">
         <svg class="w-12 h-12" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12.646 9.807" version="1.1">
@@ -24,12 +25,13 @@
         <div class="ml-3 font-black tracking-tight italic text-4xl uppercase font-montserrat text-ocean">Bold!</div>
       </div>
       <!-- main menu -->
+      <!-- hamburger -->
       <div class="px-5 lg:hidden">
-        <a href="#">
+        <button @click="open = !open">
           <svg class="w-8 h-8 text-ocean fill-current" xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-        </a>
+        </button>
       </div>
       <!-- lg menu -->
       <ul class="hidden lg:flex h-full items-stretch mr-5">
@@ -41,7 +43,8 @@
         <li><a href="#" class="menu-item">Contact</a></li>
       </ul>
       <!-- responsive menu -->
-      <ul class="lg:hidden h-auto items-stretch absolute top-16 bg-white inset-x-5 shadow-lg p-5 space-y-3 rounded-xl">
+      <ul x-show="open" @click.outside="open = false" x-transition
+          class="lg:hidden h-auto items-stretch absolute top-16 bg-white inset-x-5 shadow-lg p-5 space-y-3 rounded-xl">
         <li><a href="#" class="menu-item border-b-4 border-b-goldish">Home</a></li>
         <li><a href="#" class="menu-item">Solutions</a></li>
         <li><a href="#" class="menu-item">Work</a></li>
