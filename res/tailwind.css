@@ -15,4 +15,8 @@
     @apply block w-36 h-14 bg-contain bg-no-repeat bg-center transition-all duration-500; 
   }
 
+  .footerlg {
+    @apply flex justify-between w-3/4 mx-auto py-8 items-center border-b border-b-gray-200;
+  }
+
 }
