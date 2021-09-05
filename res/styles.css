@@ -1208,6 +1208,11 @@ video {
   padding-bottom: 0px;
 }
 
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
@@ -1638,6 +1643,10 @@ video {
     margin-bottom: 2.5rem;
   }
 
+  .md\:mb-8 {
+    margin-bottom: 2rem;
+  }
+
   .md\:w-3\/5 {
     width: 60%;
   }
@@ -1649,6 +1658,11 @@ video {
   .md\:px-5 {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+  }
+
+  .md\:px-10 {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 
   .md\:text-3xl {
@@ -1668,6 +1682,10 @@ video {
 
   .md\:font-medium {
     font-weight: 500;
+  }
+
+  .md\:font-extrabold {
+    font-weight: 800;
   }
 
   .md\:leading-snug {
@@ -1776,6 +1794,11 @@ video {
   .lg\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .lg\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .lg\:pt-20 {
