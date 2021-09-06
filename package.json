@@ -1,7 +1,7 @@
 {
-  "name": "bold",
+  "name": "Blaze",
   "version": "1.0.0",
-  "description": "Bold - An HTML Template created using Tailwind CSS 2.2.",
+  "description": "Blaze - An HTML Template created using Tailwind CSS 2.2.",
   "main": "index.html",
   "scripts": {
     "watch": "npx tailwind -i res/tailwind.css -o res/styles.css --watch",
