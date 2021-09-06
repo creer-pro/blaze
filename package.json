@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "watch": "npx tailwind -i res/tailwind.css -o res/styles.css --watch",
-    "build": "npx tailwind -i res/tailwind.css -o res/styles.css --minify"
+    "build": "NODE_ENV=production npx tailwind -i res/tailwind.css -o res/styles.css --minify"
   },
   "keywords": [
     "template",
