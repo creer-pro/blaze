@@ -16,7 +16,7 @@
   "email": "naderian.mahdi@gmail.com",
   "license": "ISC",
   "dependencies": {
-    "alpinejs": "^3.3.4",
+    "alpinejs": "^3.3.5",
     "autoprefixer": "^10.3.1",
     "postcss": "^8.3.6",
     "tailwindcss": "^2.2.7"
