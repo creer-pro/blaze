@@ -1,24 +1,26 @@
 # XBase Template: Blaze
 
-...
+Blaze as part of the XBase Templates Collection is implemented using the lovely Tailwind CSS framework to be a general purpose template. You can customize and use it in any ways you wish.
 
-# Installation Guide
+Everything is clear...
 
-...
-
-# Code Structure
+## Installation Guide
 
 ...
 
-## Files
+## Code Structure
 
 ...
 
-## Separation of Responsive Styles
+### Files
 
 ...
 
-# How to Contact
+### Separation of Responsive Styles
+
+...
+
+## Contact Me
 
 ...
 
