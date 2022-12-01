@@ -2,23 +2,23 @@
 
 ...
 
-# [ Installation Guide ]
+# Installation Guide
 
 ...
 
-# [ Code Structure ]
+# Code Structure
 
 ...
 
-## [ Files ]
+## Files
 
 ...
 
-## [ Separation of Responsive Styles ]
+## Separation of Responsive Styles
 
 ...
 
-# [ How to Contact ]
+# How to Contact
 
 ...
 
