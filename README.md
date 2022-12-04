@@ -4,17 +4,44 @@ Blaze as part of the XBase Templates Collection is implemented using the lovely 
 
 Everything is clear...
 
-## Installation Guide
+## Installation
 
-...
+The template doesn't need any installation unless if you need to develop and customize it using Tailwind CSS. To do so you can use `npm` to install the packages needed for the Tailwind JIT engine to work:
+
+* To install the development packages:  
+``` npm install ```
+
+* To run the JIT Watch:  
+``` npm run watch ```
+
+* To build the production styles:  
+``` npm run build ```
 
 ## Code Structure
 
-...
+The code is structured in a simple and easily understandable way. Read the rest to know more.
 
 ### Files
 
-...
+Let's take a look at the files tree first:
+```
+.
+├── index.html
+├── tailwind.config.js
+├── package.json
+├── package-lock.json
+├── res
+│   ├── css
+│   │   ├── styles.css
+│   │   └── tailwind.css
+│   ├── img
+│   │   ├── ...
+│   ├── logos
+│   │   └── ...
+│   └── svg
+│       └── ...
+└── README.md
+```
 
 ### Separation of Responsive Styles
 
