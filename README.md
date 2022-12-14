@@ -43,6 +43,33 @@ Let's take a look at the files tree, first:
 └── README.md
 ```
 
+## index.html
+
+The `index.html` file contains all the html you need for the template. To avoid any fuss and complication, all the HTML code you need is put in here which can be simply edited. 
+
+If you don't know Tailwind CSS you can refer to it's documentation on [TailwindCSS.com/docs](https://tailwindcss.com/docs). There's everything you need to know about this beautiful framework out there.
+
+## tailwind.config.js and customization
+
+The tailwind.config.js at the root of this directory contains all Tailwind's configuration for this template. it contains the config for colors, font and backgrounds used in this template. You can customize them as you wish.
+
+## res\
+
+This directory contains all the resources the template needs. From CSS to images, svg files and almost everything.
+
+### res\css
+
+This directory contains two files:
+
+* `styles.css`: keeps the compiled Tailwind CSS styles.
+* `tailwind.css`: keeps Tailwind CSS custom styles that the JIT Compiler uses to generate the `styles.css` file. If you want to add your `@apply` styles you can put them here and then run `npm run build` to generate the css styles you need.
+
+## Watch & Build
+
+The `package.json` has two scripts defined in it:
+
+* `watch`: which you can use to run the Just In Time compiler of Tailwind CSS to watch the `index.html` file to generate the styles you need on the go. The generated styles will be saved in `res/css/styles.css`. To run the `watch` command just run `npm run watch`.
+* `build`: used to generate production styles. It takes the classes from `index.html` and `res/css/tailwind.css` and generates a minified, production ready set of styles in `res/css/styles.css`. To run the `build` command just run `npm run build`.
 
 ### Separation of Responsive Styles
 
