@@ -73,7 +73,7 @@ The `package.json` has two scripts defined in it:
 
 ### Separation of Responsive Styles
 
-...
+In every side of the HTML code, Tailwind classes are separated into two parts using the bar character `|`. This is done to ease up the customization of responsive styles.
 
 ## Contact Me
 
