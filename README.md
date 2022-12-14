@@ -23,7 +23,7 @@ The code is structured in a simple and easily understandable way. Read the rest 
 
 ### Files
 
-Let's take a look at the files tree first:
+Let's take a look at the files tree, first:
 ```
 .
 ├── index.html
@@ -43,11 +43,14 @@ Let's take a look at the files tree first:
 └── README.md
 ```
 
+
 ### Separation of Responsive Styles
 
 ...
 
 ## Contact Me
 
-...
+You can simply email me whenever you want using the address bellow and I'll be at your service whenever I could as much as I could 😊:  
+
+[naderian.mahdi@gmail.com](mailto:naderian.mahdi@gmail.com)
 
