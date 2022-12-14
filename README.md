@@ -1,8 +1,8 @@
 # XBase Template: Blaze
 
-Blaze as part of the XBase Templates Collection is implemented using the lovely Tailwind CSS framework to be a general purpose template. You can customize and use it in any ways you wish.
+Blaze is part of the XBase Templates Collection and is implemented using the lovely **Tailwind CSS** framework to be a general purpose template. You can customize and use it in any ways you wish.
 
-Everything is clear...
+Everything is made clear and simple. So you just need to know a bit about HTML and Tailwind CSS (if necessary) to be able to customize this template.
 
 ## Installation
 
@@ -28,7 +28,7 @@ npm run build
 
 ## Code Structure
 
-The code is structured in a simple and easily understandable way. Read the rest to know more.
+The code is structured in a simple and easily understandable way. Read the rest if you want to know more.
 
 ### Files
 
@@ -61,7 +61,7 @@ If you don't know Tailwind CSS you can refer to it's documentation on [TailwindC
 
 ### `tailwind.config.js` and customization
 
-The `tailwind.config.js` at the root of this directory contains all Tailwind's configuration for this template. it contains the config for colors, font and backgrounds used in this template. You can customize them as you wish.
+The `tailwind.config.js` at the root of this directory contains all Tailwind's configuration for this template. it contains the config for *colors*, *font* and *backgrounds* used in this template. You can customize them as you wish.
 
 ### `res\`
 
