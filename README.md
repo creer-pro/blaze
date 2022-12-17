@@ -1,6 +1,14 @@
-# XBase Template: Blaze
+<p align="center">&nbsp;</p>
 
-Blaze is part of the XBase Templates Collection and is implemented using the lovely **Tailwind CSS** framework to be a general purpose template. You can customize and use it in any ways you wish.
+<p align="center">
+  <a href="https://xbase.gumroad.com" target="_blank">
+    <img src="./res/svg/logo-title.svg" alt="logo" width="300">
+  </a>
+</p>
+
+<p align="center">&nbsp;</p>
+
+_**Blaze**_ is part of the **[XBase Templates Collection](https://xbase.gumroad.com)** and is implemented using the lovely **Tailwind CSS** framework to be a general purpose template. You can customize and use it in any ways you wish.
 
 Everything is made clear and simple. So you just need to know a bit about HTML and Tailwind CSS (if necessary) to be able to customize this template.
 
