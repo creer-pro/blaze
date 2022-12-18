@@ -4,7 +4,9 @@ module.exports = {
     extend: {
       colors: {
         'ocean': '#0b319c',
+        'oceandeep': '#0a1a4a',
         'goldish': '#ffb90a',
+        'sand': '#facb57',
       }, 
       fontFamily: {
         'montserrat': ['Montserrat'],
