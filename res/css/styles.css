@@ -1233,6 +1233,11 @@ video {
   color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
+.text-red-500 {
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -1687,6 +1692,18 @@ video {
 
   .lg\:w-1\/2 {
     width: 50%;
+  }
+
+  .lg\:w-\[285px\] {
+    width: 285px;
+  }
+
+  .lg\:w-\[235px\] {
+    width: 235px;
+  }
+
+  .lg\:w-\[275px\] {
+    width: 275px;
   }
 
   .lg\:flex-row {
