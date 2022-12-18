@@ -1837,6 +1837,10 @@ video {
     height: 10rem;
   }
 
+  .xl\:w-1\/2 {
+    width: 50%;
+  }
+
   .xl\:items-center {
     align-items: center;
   }
@@ -1869,7 +1873,47 @@ video {
     line-height: 1.75rem;
   }
 
+  .xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .xl\:tracking-widest {
     letter-spacing: 0.1em;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:-mr-96 {
+    margin-right: -24rem;
+  }
+
+  .\32xl\:w-1\/2 {
+    width: 50%;
+  }
+
+  .\32xl\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .\32xl\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .\32xl\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
