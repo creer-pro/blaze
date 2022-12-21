@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         'ocean': '#0b319c',
         'oceandeep': '#0a1a4a',
+        'oceandark': '#081333',
         'goldish': '#ffb90a',
         'sand': '#facb57',
       }, 
