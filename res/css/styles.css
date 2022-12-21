@@ -1521,6 +1521,16 @@ video {
   color: rgb(250 203 87 / var(--tw-text-opacity));
 }
 
+.dark .dark\:text-gray-300 {
+  --tw-text-opacity: 1;
+  color: rgb(209 213 219 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-sky-300 {
+  --tw-text-opacity: 1;
+  color: rgb(125 211 252 / var(--tw-text-opacity));
+}
+
 .dark .dark\:hover\:text-ocean:hover {
   --tw-text-opacity: 1;
   color: rgb(11 49 156 / var(--tw-text-opacity));
