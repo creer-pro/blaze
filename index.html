@@ -31,7 +31,7 @@
 <body class="dark:bg-oceandeep">
   <div class="w-full">
     <!-- SECTION: Header -->
-    <nav x-data="{ open: false, scrolled: false }" class="bg-white dark:bg-oceandark w-full shadow-xl h-14 flex items-center justify-between fixed top-0 z-20 transition-all eas-in-out duration-300" 
+    <nav x-data="{ open: false, scrolled: false }" class="bg-white dark:bg-oceandark w-full shadow-xl h-14 flex items-center justify-between fixed top-0 z-50 transition-all eas-in-out duration-300" 
       :class="{ 'h-10' : scrolled }" 
       @scroll.window="scrolled = (window.pageYOffset > 20) ? true : false">
       <!-- logo & brand -->
@@ -96,7 +96,7 @@
     </nav>
 
     <!-- SECTION: Hero -->
-    <div class="w-full mt-28 lg:px-16 xl:px-24 bg-white dark:bg-oceandeep overflow-hidden flex-col lg:flex lg:flex-row lg:justify-between">
+    <div class="w-full mt-28 lg:px-16 xl:px-24 lg:pb-3 bg-white dark:bg-oceandeep overflow-hidden flex-col lg:flex lg:flex-row lg:justify-between | pb-16 ">
       <div class="text-ocean dark:text-white text-center lg:text-left font-montserrat px-4 | lg:p-0">
         <div class="text-2xl md:text-3xl lg:text-5xl xl:text-6xl 2xl:text-7xl uppercase mb-3">It's time to</div>
         <div class="uppercase font-black text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl mb-8 lg:mb-12"><span class="text-goldish">Blaze</span> your ecommerce</div>
@@ -292,7 +292,7 @@
       <!-- view-all-button -->
       <a href="#" class="mx-auto bg-goldish relative -skew-x-12 block w-56 lg:my-16 text-center p-4 hover:bg-ocean group transition duration-500 shadow-xl | my-10">
         <span class="absolute block border border-goldish w-56 h-14 -skew-x-1 group-hover:border-ocean transition duration-500 -translate-x-1 group-hover:-translate-x-4 group-hover:-translate-y-3"></span>
-        <span class="font-semibold text-ocean uppercase skew-x-12 block text-xl w-full group-hover:text-goldish transition duration-500">View All</span>
+        <span class="font-semibold text-ocean dark:text-oceandeep uppercase skew-x-12 block text-xl w-full group-hover:text-goldish transition duration-500">View All</span>
       </a>
     </div>
 
