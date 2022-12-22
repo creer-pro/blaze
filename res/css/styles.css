@@ -604,12 +604,16 @@ video {
   bottom: -1.25rem;
 }
 
-.z-20 {
-  z-index: 20;
+.z-50 {
+  z-index: 50;
 }
 
 .z-10 {
   z-index: 10;
+}
+
+.z-20 {
+  z-index: 20;
 }
 
 .z-30 {
@@ -618,10 +622,6 @@ video {
 
 .z-40 {
   z-index: 40;
-}
-
-.z-50 {
-  z-index: 50;
 }
 
 .mx-auto {
@@ -712,10 +712,6 @@ video {
 
 .mt-3 {
   margin-top: 0.75rem;
-}
-
-.mb-16 {
-  margin-bottom: 4rem;
 }
 
 .block {
@@ -1131,6 +1127,10 @@ video {
   padding-right: 1.25rem;
 }
 
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
 .pl-5 {
   padding-left: 1.25rem;
 }
@@ -1145,10 +1145,6 @@ video {
 
 .pt-5 {
   padding-top: 1.25rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
 }
 
 .text-center {
@@ -1503,14 +1499,14 @@ video {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
 }
 
-.dark .dark\:bg-gray-800 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(31 41 55 / var(--tw-bg-opacity));
-}
-
 .dark .dark\:text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.dark .dark\:text-goldish {
+  --tw-text-opacity: 1;
+  color: rgb(255 185 10 / var(--tw-text-opacity));
 }
 
 .dark .dark\:text-gray-400 {
@@ -1523,29 +1519,19 @@ video {
   color: rgb(10 26 74 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-goldish {
-  --tw-text-opacity: 1;
-  color: rgb(255 185 10 / var(--tw-text-opacity));
-}
-
-.dark .dark\:text-sand {
-  --tw-text-opacity: 1;
-  color: rgb(250 203 87 / var(--tw-text-opacity));
-}
-
 .dark .dark\:text-gray-300 {
   --tw-text-opacity: 1;
   color: rgb(209 213 219 / var(--tw-text-opacity));
 }
 
-.dark .dark\:text-sky-300 {
-  --tw-text-opacity: 1;
-  color: rgb(125 211 252 / var(--tw-text-opacity));
-}
-
 .dark .dark\:hover\:text-ocean:hover {
   --tw-text-opacity: 1;
   color: rgb(11 49 156 / var(--tw-text-opacity));
+}
+
+.dark .dark\:hover\:text-goldish:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 185 10 / var(--tw-text-opacity));
 }
 
 @media (min-width: 640px) {
@@ -1857,20 +1843,12 @@ video {
     padding-bottom: 5rem;
   }
 
-  .lg\:pt-20 {
-    padding-top: 5rem;
-  }
-
-  .lg\:pb-0 {
-    padding-bottom: 0px;
-  }
-
-  .lg\:pb-5 {
-    padding-bottom: 1.25rem;
-  }
-
   .lg\:pb-3 {
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:pt-20 {
+    padding-top: 5rem;
   }
 
   .lg\:text-left {
