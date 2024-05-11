@@ -1,16 +1,20 @@
 <p align="center">&nbsp;</p>
 
 <p align="center">
-  <a href="https://xbase.gumroad.com" target="_blank">
+  <a href="https://creer.pro" target="_blank">
     <img src="./res/svg/logo-title.svg" alt="logo" width="300">
   </a>
 </p>
 
 <p align="center">&nbsp;</p>
 
-_**Blaze**_ is part of the **[XBase Templates Collection](https://xbase.gumroad.com)** and is implemented using the lovely **Tailwind CSS** framework to be a general purpose template. You can customize and use it in any ways you wish.
+_**Blaze**_ is part of the **[Mastering Tailwind CSS](https://creer.pro)** training package and is implemented using the lovely **Tailwind CSS** framework. You can customize and use it in any ways you wish.
+
+This template is modified to be used as the main project to train web designers and developers about Tailwind CSS v3.x in a simple but effective way.
 
 Everything is made clear and simple. So you just need to know a bit about HTML and Tailwind CSS (if necessary) to be able to customize this template.
+
+If you don't know much about Tailwind CSS, you can check out _*[Creer.pro](https://creer.pro)*_ for a comprehensive and full training on this framework.
 
 ## Installation
 
@@ -65,7 +69,7 @@ Let's take a look at the files tree, first:
 
 The `index.html` file contains all the html you need for the template. To avoid any fuss and complication, all the HTML code you need is put in here which can be simply edited. 
 
-If you don't know Tailwind CSS you can refer to it's documentation on [TailwindCSS.com/docs](https://tailwindcss.com/docs). There's everything you need to know about this beautiful framework out there.
+If you don't know Tailwind CSS you can refer to it's documentation on [TailwindCSS.com/docs](https://tailwindcss.com/docs) or [Creer.pro](https://creer.pro) to learn it effectively. There's everything you need to know about this beautiful framework out there.
 
 ### `tailwind.config.js` and customization
 
@@ -94,6 +98,10 @@ The `package.json` has two scripts defined in it:
 In every side of the HTML code, Tailwind classes might be separated into two parts using the bar character `|`. This is done to ease up the customization of responsive styles. 
 
 The character itself doesn't effect the styles in any way and it's for the purpose of having a clean code only.
+
+## Using Blaze in production 
+
+Feel free to use the code in your projects in any way. In return we just ask to be mentioned or supported in any way you can. 
 
 ## Contact Me
 
