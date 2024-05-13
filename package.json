@@ -8,15 +8,15 @@
     "build": "NODE_ENV=production npx tailwindcss -i res/css/tailwind.css -o res/css/styles.css --minify"
   },
   "keywords": [
-    "xbase",
+    "creer",
     "blaze",
     "template",
     "tailwind",
     "css"
   ],
-  "author": "Mahdi Naderian",
-  "email": "naderian.mahdi@gmail.com",
-  "website": "xbase.gumroad.com",
+  "author": "Creer",
+  "email": "creer.pro.app@gmail.com",
+  "website": "creer.pro",
   "license": "ISC",
   "dependencies": {
     "alpinejs": "^3.3.5"
