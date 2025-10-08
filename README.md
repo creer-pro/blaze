@@ -8,17 +8,13 @@
 
 <p align="center">&nbsp;</p>
 
-_**Blaze**_ is part of the **[Mastering Tailwind CSS](https://creer.pro)** training package and is implemented using the lovely **Tailwind CSS** framework. You can customize and use it in any ways you wish.
+_**Blaze**_ is a free HTML template and is implemented using the lovely **Tailwind CSS** framework. You can customize and use it in any ways you wish.
 
-This template is modified to be used as the main project to train web designers and developers about Tailwind CSS v3.x in a simple but effective way.
-
-Everything is made clear and simple. So you just need to know a bit about HTML and Tailwind CSS (if necessary) to be able to customize this template.
-
-If you don't know much about Tailwind CSS, you can check out _*[Creer.pro](https://creer.pro)*_ for a comprehensive and full training on this framework.
+Everything in the code is made clear and simple. So you just need to know a bit about HTML and Tailwind CSS (if necessary) to be able to customize this template.
 
 ## Installation
 
-The template doesn't need any installation unless if you need to develop and customize it using Tailwind CSS. To do so you can use `npm` to install the packages needed for the Tailwind JIT engine to work:
+The template doesn't need any installation unless if you need to develop and customize it using Tailwind CSS. To do so you can use `npm` to install the packages needed for Tailwind CSS to watch your files for changes and generate the styles:
 
 - To install the development packages:  
 
@@ -26,13 +22,13 @@ The template doesn't need any installation unless if you need to develop and cus
 npm install 
 ```
 
-- To run the JIT Watch:  
+- To start watching files for automatic CSS class generation:  
 
 ```shell 
 npm run watch 
 ```
 
-- To build the production styles:  
+- To build the production styles (minified CSS code):  
 
 ```shell 
 npm run build 
@@ -69,7 +65,7 @@ Let's take a look at the files tree, first:
 
 The `index.html` file contains all the html you need for the template. To avoid any fuss and complication, all the HTML code you need is put in here which can be simply edited. 
 
-If you don't know Tailwind CSS you can refer to it's documentation on [TailwindCSS.com/docs](https://tailwindcss.com/docs) or [Creer.pro](https://creer.pro) to learn it effectively. There's everything you need to know about this beautiful framework out there.
+If you don't know Tailwind CSS you can refer to it's documentation on [TailwindCSS.com/docs](https://tailwindcss.com/docs) to learn about it effectively. There's everything you need to know about this beautiful framework out there.
 
 ### `tailwind.config.js` and customizing it
 
@@ -90,17 +86,21 @@ This directory contains two files:
 
 The `package.json` has two scripts defined in it:
 
-- **`watch`**: which you can use to run the _Just In Time compiler_ of Tailwind CSS to watch the `index.html` file to generate your styles on the go. The generated styles will be saved in `res/css/styles.css`. To run the `watch` command just run `npm run watch` in your command line in the project's root.
+- **`watch`**: which you can use to run the _Just In Time compiler_ of Tailwind CSS to watch the `index.html` file to generate your styles on the go. The generated styles will be saved in `res/css/styles.css`. To run the `watch` command just run `npm run watch` in your command line inside the project's root.
 
-- **`build`**: used to generate production styles. It takes the classes from `index.html` and `res/css/tailwind.css` and generates a minified, production ready styles into `res/css/styles.css`. To run the `build` command just run `npm run build` in your command line in the project's root.
+- **`build`**: used to generate production styles. It takes the classes from `index.html` and `res/css/tailwind.css` and generates a minified, production ready styles into `res/css/styles.css`. To run the `build` command just run `npm run build` in your command line inside the project's root.
 
 ## Using Blaze in Your Projects 
 
-Feel free to use the code in your projects in any way. In return, all we ask is to be mentioned or supported in any way you can. 
+Feel free to use the code in your projects in any ways you like. In return, all we ask is to be mentioned or supported in any ways you wish/can. 
 
 ## Contact Us
 
-Feel free to email us whenever you needed any help: 
+Feel free to email me whenever you need any help: 
 
 📩 [creer.pro.app@gmail.com](mailto:creer.pro.app@gmail.com)
+
+Also availble on X:
+
+📩 [@mahdi_naderian](https://x.com/mahdi_naderian)
 
