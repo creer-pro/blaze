@@ -1,7 +1,7 @@
 {
   "name": "Blaze",
   "version": "1.0.0",
-  "description": "Blaze - An HTML Template created with Tailwind CSS 3.x",
+  "description": "Blaze - An HTML Template created with Tailwind CSS v3.x",
   "main": "index.html",
   "scripts": {
     "dev": "npx tailwindcss -i res/css/tailwind.css -o res/css/styles.css --watch",
@@ -15,7 +15,7 @@
     "css"
   ],
   "author": "Creer",
-  "email": "creer.pro.app@gmail.com",
+  "email": "naderian.mahdi@gmail.com",
   "website": "creer.pro",
   "license": "ISC",
   "dependencies": {
